@@ -1,0 +1,43 @@
+/* style.css */
+body{
+   /* background:url(images/paradise.jpg) no-repeat;*/
+}
+
+
+a.menu{
+    width:170px;
+    height:170px;
+    background:url('images/socialmedia.jpg') no-repeat;
+    display:inline-block;
+}
+a#twitter{
+    background-position-x: -200px;
+    background-position-y: -180px;
+}
+a#facebook{
+    background-position-x: -543px;
+    background-position-y: -180px;
+}
+a#twitter:hover{
+    background-position-y: -190px;
+}
+a#facebook:hover{
+    background-position-y: -190px;
+}
+
+#kimyuna2{
+    border-top:5px solid #000;
+    border-bottom:5px solid #f00;
+    border-left:5px solid #ff0;
+    border-right:5px solid #f0f;
+    border-top-right-radius: 50px;
+}
+#kimyuna{
+    width:100px;
+    height:100px;
+    border-top:3px solid #000;
+    border-bottom:3px dotted #f00;
+    background:url('images/kimyuna.jpg') no-repeat;
+    background-position: -410px -40px;    
+    
+}
