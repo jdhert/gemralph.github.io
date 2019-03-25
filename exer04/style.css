@@ -1,0 +1,86 @@
+body{
+    background:#5ab;
+}
+
+
+#main{
+    min-width:300px;
+    max-width:1024px;
+    margin:auto;
+}
+
+#content{
+    min-height: 500px;
+}
+
+.title{
+    text-align: center;
+    color:#ffe;
+    animation-name: titleAnimate;
+    animation-delay: 3s;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    position: relative;
+    animation-fill-mode: forwards;
+    top:-500px;
+}
+
+@keyframes titleAnimate { 
+    0%{
+        top:-500px;
+    }
+    70%{
+        top:0px;
+    }
+    85%{
+        top:-50px;
+    }
+    90%{
+        top:0px;
+    }
+    95%{
+        top:20px;
+    }
+    100%{
+        top:0px;
+    }
+}
+
+
+
+#content p{
+    color:#ffe;
+ 
+}
+
+
+.brand {
+    color:#ff0;
+    animation-name: intro;
+    animation-delay: 1s;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    position: relative;
+    animation-fill-mode: forwards;
+    
+    left:-500px;
+}
+
+@keyframes intro { 
+    0%{
+        left:-500px;
+    }
+    100%{
+        left:0px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:600px){
+    .food{
+        display:flex;
+    }
+}
