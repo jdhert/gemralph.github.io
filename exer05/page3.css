@@ -1,0 +1,16 @@
+.box{
+    border:1px solid #aaa;
+    width:35px;
+    height:35px;
+    display:inline-block;
+    cursor: pointer;
+}
+#redBox{
+    background:#f00;
+}
+#blueBox{
+    background:#00f;
+}
+#greenBox{
+    background:#0f0;
+}
