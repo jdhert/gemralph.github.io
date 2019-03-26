@@ -1,12 +1,15 @@
 /* style.css */
 
-body{
-
+body {
 }
 #picture {
-    width:400px;
+  width: 400px;
 }
 
-.navbar{
-    background-color:#f90 !important;
+.navbar {
+  background-color: #f90 !important;
+}
+
+.box {
+  margin-top: 15px;
 }

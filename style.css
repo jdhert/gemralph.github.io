@@ -3,6 +3,26 @@
 
  */
 
-body{
- background: #d4d4d4;
+body {
+  background: #d4d4d4;
+}
+
+.container {
+  background: #fff;
+  padding-bottom: 10px;
+}
+.footer {
+  margin: 50px 0 50px 0px;
+}
+
+.mybox {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  min-height: 150px;
+  margin: 15px;
+}
+
+.mybox:hover {
+  background: #ffb;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
